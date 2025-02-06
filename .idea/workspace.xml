@@ -4,28 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eaed1f6f-7e7f-4d7e-83bf-13befd03d814" name="Changes" comment="7th Jan">
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="eaed1f6f-7e7f-4d7e-83bf-13befd03d814" name="Changes" comment="NEW">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_result/451fcc4a-7d4d-4b39-9f27-134d0d740126-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure_result/451fcc4a-7d4d-4b39-9f27-134d0d740126-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_result/67124915-0215-479f-a4b3-d785d51a2dd2-container.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure_result/67124915-0215-479f-a4b3-d785d51a2dd2-container.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_result/a92c20dc-533e-414b-b101-b49f8207e442-container.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure_result/a92c20dc-533e-414b-b101-b49f8207e442-container.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_result/b9c77f2b-f5d8-4175-93d2-6d29b66897f2-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure_result/b9c77f2b-f5d8-4175-93d2-6d29b66897f2-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_result/bd0ffdc0-7e1b-4098-9261-ebc4cedd3b46-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure_result/bd0ffdc0-7e1b-4098-9261-ebc4cedd3b46-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_result/d90a4930-d79e-4b3b-b3aa-f903042a5b14-container.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure_result/d90a4930-d79e-4b3b-b3aa-f903042a5b14-container.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_result/f124aa2a-c2da-41f0-b83d-f9a6c851571d-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure_result/f124aa2a-c2da-41f0-b83d-f9a6c851571d-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_result/fcebfe03-912b-448c-8902-67d44b7deb67-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure_result/fcebfe03-912b-448c-8902-67d44b7deb67-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conftest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/api_constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/api_constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/api_requests_wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/api_requests_wrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/common_verification.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/common_verification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/payload_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/payload_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/crud/test_create_booking.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/crud/test_create_booking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/end2end/test_e2e.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/end2end/test_e2e.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/sample/testcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/sample/testcases.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -345,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736422656085</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="NEW">
+      <option name="closed" value="true" />
+      <created>1738816579755</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738816579755</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -354,6 +342,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2nd Jan" />
     <MESSAGE value="7th Jan" />
-    <option name="LAST_COMMIT_MESSAGE" value="7th Jan" />
+    <MESSAGE value="NEW" />
+    <option name="LAST_COMMIT_MESSAGE" value="NEW" />
   </component>
 </project>
