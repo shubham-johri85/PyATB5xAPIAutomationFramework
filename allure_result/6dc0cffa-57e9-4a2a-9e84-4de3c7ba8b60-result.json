@@ -1,0 +1,45 @@
+{
+  "name": "E2E - Create Booking -> Update -> Delete(Verify)",
+  "status": "passed",
+  "description": "Verify that created booking id when we update we are able to update it and delete it also | Full CRUD",
+  "start": 1736431759982,
+  "stop": 1736431761520,
+  "uuid": "10a5042a-7ba9-478c-982c-c850b4de7c28",
+  "historyId": "507ac7668d39c4228bf2bcea126a6e27",
+  "testCaseId": "507ac7668d39c4228bf2bcea126a6e27",
+  "fullName": "src.tests.end2end.test_e2e.TestE2E#test_update_booking_with_id_token",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "src.tests.end2end"
+    },
+    {
+      "name": "suite",
+      "value": "test_e2e"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestE2E"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-E6T2V0BL"
+    },
+    {
+      "name": "thread",
+      "value": "14492-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "src.tests.end2end.test_e2e"
+    }
+  ]
+}

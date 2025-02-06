@@ -18,10 +18,9 @@ def create_token():
         payload=payload_create_token(),
         in_json=False
     )
-    token = response.json()["token"]
-    # verify_http_status_code(response_data=response,expected_data=200)
-    # verify_json_key_not_none(response.json()["token"])
-    return token
+    verify_http_status_code(response_data=response, expected_data=200)
+    verify_json_key_not_none(response.json()["token"])
+    return response.json()["token"]
 
 
 @pytest.fixture(scope="session")

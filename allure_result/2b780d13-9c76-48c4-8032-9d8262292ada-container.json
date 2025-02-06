@@ -1,0 +1,21 @@
+{
+  "uuid": "8bd5580d-c485-4fbd-a8c5-a167084247da",
+  "children": [
+    "e1b94ef6-3650-442c-a884-81df9f9147c6",
+    "aac3ead7-4515-48a6-b925-58e4afcf76ba"
+  ],
+  "befores": [
+    {
+      "name": "create_token",
+      "status": "broken",
+      "statusDetails": {
+        "message": "KeyError: 'token'\n",
+        "trace": "  File \"C:\\Users\\HP\\PycharmProjects\\PyATB5xAPIAutomationFramework\\.venv\\Lib\\site-packages\\pluggy\\_callers.py\", line 167, in _multicall\n    teardown.throw(outcome._exception)\n    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\HP\\PycharmProjects\\PyATB5xAPIAutomationFramework\\.venv\\Lib\\site-packages\\_pytest\\setuponly.py\", line 36, in pytest_fixture_setup\n    return (yield)\n            ^^^^^\n  File \"C:\\Users\\HP\\PycharmProjects\\PyATB5xAPIAutomationFramework\\.venv\\Lib\\site-packages\\pluggy\\_callers.py\", line 103, in _multicall\n    res = hook_impl.function(*args)\n  File \"C:\\Users\\HP\\PycharmProjects\\PyATB5xAPIAutomationFramework\\.venv\\Lib\\site-packages\\_pytest\\fixtures.py\", line 1140, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"C:\\Users\\HP\\PycharmProjects\\PyATB5xAPIAutomationFramework\\.venv\\Lib\\site-packages\\_pytest\\fixtures.py\", line 898, in call_fixture_func\n    fixture_result = fixturefunc(**kwargs)\n  File \"C:\\Users\\HP\\PycharmProjects\\PyATB5xAPIAutomationFramework\\conftest.py\", line 22, in create_token\n    verify_json_key_not_none(response.json()[\"token\"])\n                             ~~~~~~~~~~~~~~~^^^^^^^^^\n"
+      },
+      "start": 1736431605085,
+      "stop": 1736431607108
+    }
+  ],
+  "start": 1736431605085,
+  "stop": 1736431607285
+}

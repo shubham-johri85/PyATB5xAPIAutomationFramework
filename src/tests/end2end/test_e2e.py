@@ -1,6 +1,5 @@
 import allure
 import pytest
-
 from src.constants.api_constants import APIConstants
 from src.helpers.api_requests_wrapper import *
 from src.helpers.common_verification import *
@@ -43,7 +42,7 @@ class TestE2E(object):
 
         delete_url = APIConstants().url_patch_put_delete(booking_id=booking_id)
         response = delete_requests(
-            url= delete_url,
+            url=delete_url,
             headers=Utils().common_header_put_delete_patch_cookie(token=token),
             auth=None,
             in_json=False

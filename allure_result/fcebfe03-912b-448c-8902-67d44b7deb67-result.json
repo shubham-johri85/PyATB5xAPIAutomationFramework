@@ -1,1 +1,49 @@
-{"name": "Verify that Create Booking with invalid payload", "status": "passed", "description": "Creating a Booking id invalid, verify 500 for the correct payload", "start": 1736140244055, "stop": 1736140245083, "uuid": "b6177177-63cb-4dc1-8e30-34eb15d4987b", "historyId": "2861aad5710c182c8d21284006d0fcfd", "testCaseId": "2861aad5710c182c8d21284006d0fcfd", "fullName": "src.tests.crud.test_create_booking.TestCreateBooking#test_create_booking_negative_tc_1", "labels": [{"name": "tag", "value": "positive"}, {"name": "parentSuite", "value": "src.tests.crud"}, {"name": "suite", "value": "test_create_booking"}, {"name": "subSuite", "value": "TestCreateBooking"}, {"name": "host", "value": "LAPTOP-E6T2V0BL"}, {"name": "thread", "value": "6660-MainThread"}, {"name": "framework", "value": "pytest"}, {"name": "language", "value": "cpython3"}, {"name": "package", "value": "src.tests.crud.test_create_booking"}]}
+{
+  "name": "Verify that Create Booking with invalid payload",
+  "status": "passed",
+  "description": "Creating a Booking id invalid, verify 500 for the correct payload",
+  "start": 1736140244055,
+  "stop": 1736140245083,
+  "uuid": "b6177177-63cb-4dc1-8e30-34eb15d4987b",
+  "historyId": "2861aad5710c182c8d21284006d0fcfd",
+  "testCaseId": "2861aad5710c182c8d21284006d0fcfd",
+  "fullName": "src.tests.crud.test_create_booking.TestCreateBooking#test_create_booking_negative_tc_1",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "positive"
+    },
+    {
+      "name": "parentSuite",
+      "value": "src.tests.crud"
+    },
+    {
+      "name": "suite",
+      "value": "test_create_booking"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCreateBooking"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-E6T2V0BL"
+    },
+    {
+      "name": "thread",
+      "value": "6660-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "src.tests.crud.test_create_booking"
+    }
+  ]
+}

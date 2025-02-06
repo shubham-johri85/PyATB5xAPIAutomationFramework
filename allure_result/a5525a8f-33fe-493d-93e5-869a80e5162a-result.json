@@ -1,14 +1,14 @@
 {
-  "name": "Verify delete CRUD operation",
+  "name": "Test CRUD operation Delete(delete)",
   "status": "broken",
   "statusDetails": {
     "message": "KeyError: 'token'",
-    "trace": "@pytest.fixture(scope=\"session\")\n    def create_token():\n        response = post_request(\n            url = APIConstants().url_create_token(),\n            headers = Utils().common_headers_json(),\n            auth = None,\n            payload= payload_create_token(),\n            in_json = False\n        )\n        verify_http_status_code(response_data=response, expected_data=200)\n>       return response.json()[\"token\"]\nE       KeyError: 'token'\n\nconftest.py:22: KeyError"
+    "trace": "@pytest.fixture(scope=\"session\")\n    def create_token():\n        response = post_request(\n            url=APIConstants().url_create_token(),\n            headers=Utils().common_headers_json(),\n            auth=None,\n            payload=payload_create_token(),\n            in_json=False\n        )\n        verify_http_status_code(response_data=response, expected_data=200)\n>       verify_json_key_not_none(response.json()[\"token\"])\nE       KeyError: 'token'\n\nconftest.py:22: KeyError"
   },
-  "description": "Create Booking -> Delete It -> Verify",
-  "start": 1736322453932,
-  "stop": 1736322453932,
-  "uuid": "7c03932b-3712-47d5-959a-3bb0727de830",
+  "description": "Verify booking gets deleted with the booking ID and Token.",
+  "start": 1736431607278,
+  "stop": 1736431607278,
+  "uuid": "aac3ead7-4515-48a6-b925-58e4afcf76ba",
   "historyId": "5215129df708bcdd42d5528ac5c1b2f4",
   "testCaseId": "5215129df708bcdd42d5528ac5c1b2f4",
   "fullName": "src.tests.end2end.test_e2e.TestE2E#test_delete_booking_id",
@@ -31,7 +31,7 @@
     },
     {
       "name": "thread",
-      "value": "15596-MainThread"
+      "value": "1840-MainThread"
     },
     {
       "name": "framework",

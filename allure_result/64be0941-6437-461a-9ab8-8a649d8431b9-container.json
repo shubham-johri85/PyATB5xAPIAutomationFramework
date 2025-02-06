@@ -1,0 +1,17 @@
+{
+  "uuid": "c63a8ab9-319c-4498-83bf-90b01907a063",
+  "children": [
+    "813c668a-151a-4a41-8d25-41f37fe346ba",
+    "5efd779d-e304-4770-a55e-8bf1d5dc1700"
+  ],
+  "befores": [
+    {
+      "name": "get_booking_id",
+      "status": "passed",
+      "start": 1736432569891,
+      "stop": 1736432571398
+    }
+  ],
+  "start": 1736432569891,
+  "stop": 1736432574575
+}

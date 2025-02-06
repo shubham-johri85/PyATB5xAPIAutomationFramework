@@ -7,6 +7,7 @@
 from dotenv import load_dotenv
 import os
 
+
 def payload_create_booking():
     payload = {
         "firstname": "Amit",

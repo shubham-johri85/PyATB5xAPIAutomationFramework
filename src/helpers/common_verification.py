@@ -20,5 +20,6 @@ def verify_json_key_not_none(key):
 def verify_json_key_gr_zero(key):
     assert key > 0, "Failed Key is not > 0"
 
+
 def verify_response_delete(response):
-    assert "created" in response
+    assert "Created" in response

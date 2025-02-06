@@ -1,1 +1,49 @@
-{"name": "Verify that Create Booking Status and Booking ID shouldn't be null", "status": "passed", "description": "Creating a Booking from the payload and verify that booking id should not be null and status code should be 200 for the correct payload", "start": 1736140242671, "stop": 1736140244051, "uuid": "03c71db7-0611-42d3-9f7a-7ae85aa7be45", "historyId": "62970b0be84e1c85c5e0d3e4045d3efd", "testCaseId": "62970b0be84e1c85c5e0d3e4045d3efd", "fullName": "src.tests.crud.test_create_booking.TestCreateBooking#test_create_booking_positive", "labels": [{"name": "tag", "value": "positive"}, {"name": "parentSuite", "value": "src.tests.crud"}, {"name": "suite", "value": "test_create_booking"}, {"name": "subSuite", "value": "TestCreateBooking"}, {"name": "host", "value": "LAPTOP-E6T2V0BL"}, {"name": "thread", "value": "6660-MainThread"}, {"name": "framework", "value": "pytest"}, {"name": "language", "value": "cpython3"}, {"name": "package", "value": "src.tests.crud.test_create_booking"}]}
+{
+  "name": "Verify that Create Booking Status and Booking ID shouldn't be null",
+  "status": "passed",
+  "description": "Creating a Booking from the payload and verify that booking id should not be null and status code should be 200 for the correct payload",
+  "start": 1736140242671,
+  "stop": 1736140244051,
+  "uuid": "03c71db7-0611-42d3-9f7a-7ae85aa7be45",
+  "historyId": "62970b0be84e1c85c5e0d3e4045d3efd",
+  "testCaseId": "62970b0be84e1c85c5e0d3e4045d3efd",
+  "fullName": "src.tests.crud.test_create_booking.TestCreateBooking#test_create_booking_positive",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "positive"
+    },
+    {
+      "name": "parentSuite",
+      "value": "src.tests.crud"
+    },
+    {
+      "name": "suite",
+      "value": "test_create_booking"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCreateBooking"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-E6T2V0BL"
+    },
+    {
+      "name": "thread",
+      "value": "6660-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "src.tests.crud.test_create_booking"
+    }
+  ]
+}

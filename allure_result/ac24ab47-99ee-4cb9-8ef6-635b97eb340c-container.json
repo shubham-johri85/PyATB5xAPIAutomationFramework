@@ -1,0 +1,17 @@
+{
+  "uuid": "68f725bb-3727-41b2-83b4-2a8730625dcf",
+  "children": [
+    "e1b94ef6-3650-442c-a884-81df9f9147c6",
+    "aac3ead7-4515-48a6-b925-58e4afcf76ba"
+  ],
+  "befores": [
+    {
+      "name": "_session_faker",
+      "status": "passed",
+      "start": 1736431605006,
+      "stop": 1736431605085
+    }
+  ],
+  "start": 1736431605006,
+  "stop": 1736431607286
+}

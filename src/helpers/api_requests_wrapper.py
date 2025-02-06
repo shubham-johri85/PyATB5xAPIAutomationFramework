@@ -5,6 +5,7 @@ pre build methods for GET, POST, PUT, PATCH and DELETE requests
 import json
 import requests
 
+
 def get_request(url, auth, in_json):
     get_response = requests.get(url=url, auth=auth)
     if in_json:
